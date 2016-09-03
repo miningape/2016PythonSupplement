@@ -22,6 +22,8 @@ for x in range(len(studentNames), 30):
         tempStudentMarks_1 = int(input("Input student's score for the first test again: "))
         if tempStudentMarks_1 > 20 or tempStudentMarks_1 < 0:
             exit("Wrong input twice; exiting...")
+        else:
+            studentMarks_3.append(tempStudentMarks_3)
     else:
         studentMarks_1.append(tempStudentMarks_1)
 
@@ -32,6 +34,8 @@ for x in range(len(studentNames), 30):
         tempStudentMarks_2 = int(input("Input student's score for the second test again: "))
         if tempStudentMarks_2 > 25 or tempStudentMarks_2 < 0:
             exit("Wrong input twice; exiting...")
+        else:
+            studentMarks_3.append(tempStudentMarks_3)
     else:
         studentMarks_2.append(tempStudentMarks_2)
 
@@ -42,6 +46,8 @@ for x in range(len(studentNames), 30):
         tempStudentMarks_3 = int(input("Input student's score for the third test again: "))
         if tempStudentMarks_3 > 35 or tempStudentMarks_3 < 0:
             exit("Wrong input twice; exiting...")
+        else:
+            studentMarks_3.append(tempStudentMarks_3)
     else:
         studentMarks_3.append(tempStudentMarks_3)
 
