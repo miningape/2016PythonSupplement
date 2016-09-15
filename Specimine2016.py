@@ -23,7 +23,7 @@ for x in range(len(studentNames), 30):
         if tempStudentMarks_1 > 20 or tempStudentMarks_1 < 0:
             exit("Wrong input twice; exiting...")
         else:
-            studentMarks_3.append(tempStudentMarks_3)
+            studentMarks_1.append(tempStudentMarks_1)
     else:
         studentMarks_1.append(tempStudentMarks_1)
 
@@ -35,7 +35,7 @@ for x in range(len(studentNames), 30):
         if tempStudentMarks_2 > 25 or tempStudentMarks_2 < 0:
             exit("Wrong input twice; exiting...")
         else:
-            studentMarks_3.append(tempStudentMarks_3)
+            studentMarks_2.append(tempStudentMarks_2)
     else:
         studentMarks_2.append(tempStudentMarks_2)
 
